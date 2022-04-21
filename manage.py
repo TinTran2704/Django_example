@@ -2,7 +2,7 @@ import os
 import sys
 
 if __name__ == '__main__':
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crm1.settings') #Define the environment variable to configured
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tin_sever.settings') #Define the environment variable to configured
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
